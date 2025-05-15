@@ -43,7 +43,7 @@ section > nav > a{
 section a:hover{
     color: rgba(255, 255, 255, 0.575);
     transition: 0.3s;
-    background-color: rgb(156, 156, 156);
+    background-color: #095875b2;
     border-radius: 10px
 }
 section > nav{
