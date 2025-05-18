@@ -46,15 +46,16 @@ section a:hover{
     border-radius: 10px
 }
 section > nav{
-    position: fixed;
     text-align: left;
-    display: inline-block;
+    display: inline-block;  
     padding-left: 20px;
-    padding-top: 100px;
+    position: fixed;       
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 section#titulo > h1{
-    padding-top: 50px;
+    padding-top: 40px;
     
 }
 section#titulo > h2{
@@ -66,19 +67,26 @@ section#titulo > h1, h2{
     font-size: 1.2em;
     color: white;
     font-family: 'Press Start 2P', system-ui;
+    text-shadow: 2px 2px 4px #000;
+}
+section#container{   
+    text-align: center;
+    padding-top: 30px;
+}
+.centralizada{
+    display: inline-block;
 }
 
-img{
+section#container > img{
     width: 150px;
     height: 150px;
-    float: right;
 }
-#player{
-    text-align: right;
-    padding-right: 2%;
+section#container > p{
+    padding-left: 2%;
     color: white;
     font-family: "Press Start 2P";
     font-size: 0.8em;
+
 }
 footer{
     padding: 5px;
