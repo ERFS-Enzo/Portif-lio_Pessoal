@@ -1,4 +1,4 @@
 # Portifolio_Pessoal
 
-Link para portifolio
-<a href="#">Clique para acessar o portifólio</a>
+Link para acessar o portifolio
+<a href="#">Clique aqui</a>
