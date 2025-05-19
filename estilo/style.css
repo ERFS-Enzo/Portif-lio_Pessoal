@@ -11,13 +11,12 @@
     height: px;
 }
 body{
-    background-image: url('imagens/fundo.png');
+    background-image: url('fundo.png');
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
     height: 100vh;
 }
-
 
 /*----------------------------------------------------------------------------------------------------------------------------*/
 section#navegation{
@@ -84,7 +83,7 @@ section#container{
     border-radius: 10%;
     display: inline-block;
     width: 25vw;
-    height: 55vh;
+    height: 50vh;
     box-shadow: 0px 0px 20px black;
 }
 .centralizada{
@@ -111,34 +110,26 @@ section#container > p{
     padding-top: 30px;
     text-shadow: 2px 2px 4px black;
 }
-#sobre-mim > div > h1{
+#sobre-mim > h1{
     font-size: 1.2em;
-    margin-bottom: 50px;
+    padding-bottom: 20px;
 }
-#sobre-mim > div > p{
+#sobre-mim > p{
     font-size: 0.8em;
     padding-top: 10px;
     padding-bottom: 10px;
 }
-div#texto-sobre{
-    display: inline-block;
-    background-color: #095875b2;
-    border-radius: 10px;
-    padding: 20px 5px;
-    height: 500px;
-    box-shadow: 0px 3px 15px black;
-}
+
 /*----------------------------------------------------------------------------------------------------------------------------*/
-#habilidades{
+#experiencias{
     font-family: "Press Start 2P";
     color: white;
     text-align: center;
     padding-top: 220px;
     text-shadow: 2px 2px 4px black;
 }
-#habilidades > div > h1{
+#experiencias > h1{
     font-size: 1.2em;
-    margin-bottom: 50px;
 }
 img{
     font-size: 0.8em;
@@ -147,42 +138,6 @@ img{
     display: inline;
     padding-top: 30px;
 }
-.skills > img{
-    background-color: #094257;
-    border-radius: 10px;
-    width: 100px;
-    box-shadow: 1px 1px 12px rgba(0, 0, 0, 0.534);
-    
-}
-.skills > img:hover{
-    background-color: rgba(255, 255, 255, 0.13);
-    transform: translate(-5px, -5px);
-    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.534);
-}
-div#experiencia{
-    display: inline-block;
-    background-color: #095875b2;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 3px 15px black;
-}
-/*----------------------------------------------------------------------------------------------------------------------------*/
-#projetos{
-    font-family: "Press Start 2P";
-    color: white;
-    text-align: center;
-    padding-top: 220px;
-    text-shadow: 2px 2px 4px black;
-}
-
-
-/*div#projetos{
-    display: inline-block;
-    background-color: #095875b2;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 3px 15px black;
-}*/
 
 /*----------------------------------------------------------------------------------------------------------------------------*/
 footer{
