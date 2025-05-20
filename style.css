@@ -85,7 +85,7 @@ section#container{
     display: inline-block;
     width: 25vw;
     height: 55vh;
-    box-shadow: 0px 0px 20px black;
+    box-shadow: 0px 0px 12px black;
 }
 .centralizada{
     display: inline-block;
