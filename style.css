@@ -6,9 +6,10 @@
 
     Colors:
     -#130227
-    -rgb(104, 13, 207)
     -#00FFFF
     -#FF007F
+    -#8000FF
+    -#39FF14
  */
 @font-face {
     font-family: 'Ethnocentric';
@@ -78,8 +79,7 @@ section#inicio{
     margin: 30px 40px;
     padding: 20px;
     height: 400px;
-    box-shadow: 0px 3px 15px rgb(104, 13, 207);
-
+    box-shadow: 0px 0px 15px #8000FF;
 }
 section#inicio > img#hud{
     width: 405px;
@@ -134,7 +134,7 @@ div#texto-sobre{
     border-radius: 10px;
     padding: 20px 5px;
     height: 500px;
-    box-shadow: 0px 3px 15px rgb(104, 13, 207);
+    box-shadow: 0px 0px 15px #8000FF;
 }
 /*----------------------------------------------------------------------------------------------------------------------------*/
 #habilidades{
@@ -173,7 +173,7 @@ div#experiencia{
     background-color: #2f097536;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0px 3px 15px rgb(104, 13, 207);
+    box-shadow: 0px 0px 15px #8000FF;
 }
 /*----------------------------------------------------------------------------------------------------------------------------*/
 #projetos{
