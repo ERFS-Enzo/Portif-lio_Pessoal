@@ -6,10 +6,9 @@
 
     Colors:
     -#130227
+    -#ffffff
     -#00FFFF
-    -#FF007F
     -#8000FF
-    -#39FF14
  */
 @font-face {
     font-family: 'Ethnocentric';
@@ -45,27 +44,21 @@ header#navegation{
     padding: 20px;
 }
 
-.texto-icone{
-    opacity: 0;
-}
-a:hover .texto-icone{
-    opacity: 1;
-}
 header > nav > a{
     text-align: center;
     display: inline-block;
     color: rgba(255, 255, 255, 0.884);
-    padding: 5px;
+    padding: 5px 15px;
     margin-top: 10px;
     text-decoration: none;
-    font-size: 1em;
+    font-size: 0.8em;
     font-family: 'Orbitron';
+    border-radius: 10px;
 }
 header a:hover{
     color: rgba(255, 255, 255, 0.575);
     transition: 0.3s;
-    background-color: #095875b2;
-    border-radius: 10px;
+    background-color: #00ffff75;
 }
 header > nav{
     text-align: center;
@@ -73,23 +66,24 @@ header > nav{
 }
 /*----------------------------------------------------------------------------------------------------------------------------*/
 section#inicio{
-    display: inline-block;
+    display: block;
     background-color: #2f097536;
     border-radius: 10px;
-    margin: 30px 40px;
+    margin: 30px 100px 30px 100px;
     padding: 20px;
-    height: 400px;
+    height: 420px;
     box-shadow: 0px 0px 15px #8000FF;
 }
 section#inicio > img#hud{
     width: 405px;
     height: 350px;
-    transform: translate(50%, -5%);  
+    transform: translate(90%, -5%);  
+    
 }
 section#inicio > img#eu{
     width: 100px;
     padding-top: 20px;
-    transform: translate(-116%, -69.7%);
+    transform: translate(45%, -69.7%);
 }
 section#inicio > h1{
     text-align: center;
@@ -113,7 +107,8 @@ section#inicio > h3{
 #sobre-mim{
     color: white;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 220px;
+    padding-bottom: 30px;
     text-shadow: 2px 2px 4px black;
 }
 #sobre-mim > div > h1{
@@ -132,7 +127,7 @@ div#texto-sobre{
     display: inline-block;
     background-color: #2f097536;
     border-radius: 10px;
-    padding: 20px 5px;
+    padding: 20px 10px;
     height: 500px;
     box-shadow: 0px 0px 15px #8000FF;
 }
@@ -143,6 +138,7 @@ div#texto-sobre{
     color: white;
     text-align: center;
     padding-top: 220px;
+    padding-bottom: 30px;
     text-shadow: 2px 2px 4px black;
 }
 #habilidades > div > h1{
