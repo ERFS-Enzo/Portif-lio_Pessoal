@@ -1,17 +1,32 @@
+@charset "UTF-8";
+ /*
+    Font-family:
+    -Orbitron
+    -Ethnocentric
+
+    Colors:
+    -#130227
+    -rgb(104, 13, 207)
+    -#00FFFF
+    -#FF007F
+ */
+@font-face {
+    font-family: 'Ethnocentric';
+    src: url(Ethnocentric\ Rg.otf);
+}
+
+
 *{
     margin: 0px;
     padding: 0px;
 }
-@font-face {
-    font-family: 'Press Start 2P';
-    src: url(PressStart2P-Regular.ttf) format('truetype');
-}
+
 ::-webkit-scrollbar{
     width: 0px;
     height: px;
 }
 body{
-    background-image: url('imagens/fundo.png');
+    background-color: #130227;
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -20,92 +35,82 @@ body{
 
 
 /*----------------------------------------------------------------------------------------------------------------------------*/
-section#navegation{
+
+header#navegation{
+    background-color: rgb(19, 2, 39);
     color:white;
+    text-align: center;
+    border-bottom: 1px solid #00FFFF;
+    padding: 20px;
 }
-section#navegation svg{
-    width: 35px;  
-    height: 35px;
-}
+
 .texto-icone{
     opacity: 0;
 }
 a:hover .texto-icone{
     opacity: 1;
 }
-section > nav > a{
+header > nav > a{
     text-align: center;
-    display: block;
+    display: inline-block;
     color: rgba(255, 255, 255, 0.884);
     padding: 5px;
     margin-top: 10px;
     text-decoration: none;
-    font-family: "Press Start 2P";
-    font-size: 0.5em;
+    font-size: 1em;
+    font-family: 'Orbitron';
 }
-section a:hover{
+header a:hover{
     color: rgba(255, 255, 255, 0.575);
     transition: 0.3s;
     background-color: #095875b2;
-    border-radius: 10px
+    border-radius: 10px;
 }
-section > nav{
-    text-align: left;
-    display: inline-block;  
-    padding-left: 20px;
-    position: fixed;       
-    top: 50%;
-    transform: translateY(-50%);
+header > nav{
+    text-align: center;
+    display: inline-block;       
 }
 /*----------------------------------------------------------------------------------------------------------------------------*/
-section#titulo > h1{
-    padding-top: 40px;
-    
+section#inicio{
+    display: inline-block;
+    background-color: #2f097536;
+    border-radius: 10px;
+    margin: 30px 40px;
+    padding: 20px;
+    height: 400px;
+    box-shadow: 0px 3px 15px rgb(104, 13, 207);
+
 }
-section#titulo > h2{
+section#inicio > img#hud{
+    width: 405px;
+    height: 350px;
+    transform: translate(50%, -5%);  
+}
+section#inicio > img#eu{
+    width: 100px;
     padding-top: 20px;
+    transform: translate(-116%, -69.7%);
 }
-
-section#titulo > h1, h2{
+section#inicio > h1{
     text-align: center;
-    font-size: 1.2em;
+    font-size: 2.2em;
     color: white;
-    font-family: 'Press Start 2P', system-ui;
+    font-family: 'Ethnocentric', sans-serif;
+    font-weight: lighter;
     text-shadow: 2px 2px 4px #000;
+    padding-top: 40px;
 }
-/*----------------------------------------------------------------------------------------------------------------------------*/
-section#container{   
-    text-align: center;
-    padding-top: 30px;
-    padding-bottom: 220px;
-}
-#container > #status{
-    background-color: #095875b2;
-    border-radius: 10%;
-    display: inline-block;
-    width: 25vw;
-    height: 55vh;
-    box-shadow: 0px 0px 12px black;
-}
-.centralizada{
-    display: inline-block;
-}
-
-section#container > img{
-    width: 150px;
-    height: 150px;
-}
-section#container > p{
-    padding-left: 2%;
+section#inicio > h3{
     color: white;
-    font-family: "Press Start 2P";
-    font-size: 0.8em;
-
+    font-family: 'Ethnocentric';
+    font-weight: lighter;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000;
+    padding-top: 10px;
 }
 /*----------------------------------------------------------------------------------------------------------------------------*/
 
 #sobre-mim{
-    font-family: "Press Start 2P";
     color: white;
     text-align: center;
     padding-top: 30px;
@@ -114,23 +119,27 @@ section#container > p{
 #sobre-mim > div > h1{
     font-size: 1.2em;
     margin-bottom: 50px;
+    font-family: 'Ethnocentric', sans-serif;
+    font-weight: lighter;
 }
 #sobre-mim > div > p{
-    font-size: 0.8em;
+    font-size: 1em;
     padding-top: 10px;
     padding-bottom: 10px;
+    font-family: 'Orbitron', sans-serif;
 }
 div#texto-sobre{
     display: inline-block;
-    background-color: #095875b2;
+    background-color: #2f097536;
     border-radius: 10px;
     padding: 20px 5px;
     height: 500px;
-    box-shadow: 0px 3px 15px black;
+    box-shadow: 0px 3px 15px rgb(104, 13, 207);
 }
 /*----------------------------------------------------------------------------------------------------------------------------*/
 #habilidades{
-    font-family: "Press Start 2P";
+    font-family: 'Ethnocentric', sans-serif;
+    font-weight: lighter;
     color: white;
     text-align: center;
     padding-top: 220px;
@@ -148,27 +157,28 @@ img{
     padding-top: 30px;
 }
 .skills > img{
-    background-color: #094257;
+    background-color: #59497736;
     border-radius: 10px;
     width: 100px;
-    box-shadow: 1px 1px 12px rgba(0, 0, 0, 0.534);
+    box-shadow: 0px 0px 15px rgba(104, 13, 207, 0.514);
     
 }
 .skills > img:hover{
     background-color: rgba(255, 255, 255, 0.13);
     transform: translate(-5px, -5px);
-    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.534);
+    box-shadow: 0px 3px 15px rgba(104, 13, 207, 0.582);
 }
 div#experiencia{
     display: inline-block;
-    background-color: #095875b2;
+    background-color: #2f097536;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0px 3px 15px black;
+    box-shadow: 0px 3px 15px rgb(104, 13, 207);
 }
 /*----------------------------------------------------------------------------------------------------------------------------*/
 #projetos{
-    font-family: "Press Start 2P";
+    font-family: 'Ethnocentric', sans-serif;
+    font-weight: lighter;
     color: white;
     text-align: center;
     padding-top: 220px;
@@ -190,6 +200,6 @@ footer{
     background-color: black;
     color: white;
     text-align: center;
-    font-family: 'Press Start 2P';
+    font-family: 'Orbitron', sans-serif;
     font-size: 0.6em;
 }
