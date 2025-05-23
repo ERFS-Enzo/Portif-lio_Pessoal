@@ -26,10 +26,11 @@
     height: px;
 }
 body{
-    background-color: #130227;
+    background-image: url(imagens/fundo.png);
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
+    background-position: center center;
     height: 100vh;
 }
 
@@ -37,11 +38,12 @@ body{
 /*----------------------------------------------------------------------------------------------------------------------------*/
 
 header#navegation{
-    background-color: rgb(19, 2, 39);
+    display: block;   
     color:white;
     text-align: center;
     border-bottom: 1px solid #00FFFF;
     padding: 20px;
+    background: #130227a2;  
 }
 
 header > nav > a{
@@ -66,22 +68,18 @@ header > nav{
 }
 /*----------------------------------------------------------------------------------------------------------------------------*/
 section#inicio{
-    display: block;
-    background-color: #2f097536;
+    display: block;   
+    background: rgba(47, 9, 117, 0.3);
     border-radius: 10px;
     margin: 30px 100px 30px 100px;
     padding: 20px;
-    height: 420px;
+    height: 390px;
     box-shadow: 0px 0px 15px #8000FF;
+   
+    backdrop-filter: blur(7.2px);
+    -webkit-backdrop-filter: blur(7.2px);
+    
 }
-
-
-/*section#inicio > img{
-    width: 100px;
-    padding-top: 20px;
-    margin: 0 auto;
-    display: block;
-}*/
 
 section#inicio > h1{
     text-align: center;
@@ -91,6 +89,7 @@ section#inicio > h1{
     font-weight: lighter;
     text-shadow: 1px 1px 8px #00FFFF;
     padding-top: 40px;
+    
 }
 section#inicio > h3{
     color: white;
@@ -101,29 +100,36 @@ section#inicio > h3{
     padding-top: 10px;
 }
 section#inicio button{
-    box-shadow: 0px 0px 15px #00FFFF;
+    font-family: 'Orbitron';
+    color: #130227a2;
+    box-shadow: 0px 0px 8px #00FFFF;
     width: 200px;
     height: 50px;
     border: none;
     border-radius: 20px;
 }
+section#inicio button:hover{
+    background-color: rgba(255, 255, 255, 0.582);
+    cursor: pointer;
+}
 section#inicio > a{
     display: block;
-    margin-top: 80px;
+    margin-top: 50px;
     text-align: center;
     text-decoration: none;
+    cursor: default;
 }
-section#inicio > a:hover{
-    background-color: ;
-}
+
+
 /*----------------------------------------------------------------------------------------------------------------------------*/
 
 #sobre-mim{
     color: white;
     text-align: center;
-    padding-top: 220px;
+    margin-top: 220px;
+    padding-top: 20px;
     padding-bottom: 30px;
-    text-shadow: 2px 2px 4px #00FFFF;
+    text-shadow: 1px 1px 8px #00FFFF;
 }
 #sobre-mim > div > h1{
     font-size: 1.2em;
@@ -136,7 +142,7 @@ section#inicio > a:hover{
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 10px;
-    padding-top: ;
+    padding-right: 10px;
     font-family: 'Orbitron', sans-serif;
     text-align: justify;
 }
@@ -147,6 +153,8 @@ div#texto-sobre{
     padding: 20px 10px;
     height: 500px;
     box-shadow: 0px 0px 15px #8000FF;
+    backdrop-filter: blur(7.2px);
+    -webkit-backdrop-filter: blur(7.2px);
 }
 /*----------------------------------------------------------------------------------------------------------------------------*/
 #habilidades{
@@ -154,9 +162,10 @@ div#texto-sobre{
     font-weight: lighter;
     color: white;
     text-align: center;
-    padding-top: 220px;
+    margin-top: 220px;
+    padding-top: 20px;
     padding-bottom: 30px;
-    text-shadow: 2px 2px 4px black;
+    text-shadow: 1px 1px 8px #00FFFF;
 }
 #habilidades > div > h1{
     font-size: 1.2em;
@@ -173,13 +182,14 @@ img{
     background-color: #59497736;
     border-radius: 10px;
     width: 100px;
-    box-shadow: 0px 0px 15px rgba(104, 13, 207, 0.514);
+    box-shadow: 0px 0px 8px #00FFFF;
     
 }
 .skills > img:hover{
     background-color: rgba(255, 255, 255, 0.13);
     transform: translate(-5px, -5px);
-    box-shadow: 0px 3px 15px rgba(104, 13, 207, 0.582);
+    box-shadow: 2px 2px 8px #00FFFF;
+    transition: .3s;
 }
 div#experiencia{
     display: inline-block;
@@ -187,19 +197,20 @@ div#experiencia{
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0px 0px 15px #8000FF;
+    backdrop-filter: blur(7.2px);
+    -webkit-backdrop-filter: blur(7.2px);
 }
 /*----------------------------------------------------------------------------------------------------------------------------*/
-#projetos{
+section#projetos{
     font-family: 'Ethnocentric', sans-serif;
     font-weight: lighter;
     color: white;
     text-align: center;
     padding-top: 220px;
-    text-shadow: 2px 2px 4px black;
+    text-shadow: 1px 1px 8px #00FFFF
 }
 
-
-/*div#projetos{
+/*div.projeto{
     display: inline-block;
     background-color: #095875b2;
     padding: 20px;
