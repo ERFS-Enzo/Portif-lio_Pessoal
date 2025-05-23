@@ -201,22 +201,51 @@ div#experiencia{
     -webkit-backdrop-filter: blur(7.2px);
 }
 /*----------------------------------------------------------------------------------------------------------------------------*/
-section#projetos{
+section#projetos{    
+    text-align: center;
+    padding: 20px;
+    margin-top: 220px;
+    margin-bottom: 30px;
+    margin-left: 80px;
+    margin-right: 80px;   
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px #8000FF;
+    background-color: #2f097536;
+    backdrop-filter: blur(7.2px);
+    -webkit-backdrop-filter: blur(7.2px);
+}
+section#projetos h1, h5{
+    text-shadow: 1px 1px 8px #00FFFF;
+    color: white;
     font-family: 'Ethnocentric', sans-serif;
     font-weight: lighter;
-    color: white;
-    text-align: center;
-    padding-top: 220px;
-    text-shadow: 1px 1px 8px #00FFFF
+}
+div.projeto{
+    display: inline-block;
+    padding-top: 50px;
+    padding-right: 80px;
+    margin: 0 auto;
+}
+div.projeto a{
+    display: none;
+}
+div.projeto img{
+    margin-top: 10px;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px #00FFFF;
+}
+div.projeto img.site:hover{
+    border-radius: 10px;
+    transform: scale(2) translate(10px, 10px);
+    transition: 0.5s;
+}
+div.projeto img.codigo:hover{
+    border-radius: 10px;
+    transform: scale(3) translate(10px, -50px);
+    transition: 0.5s;
 }
 
-/*div.projeto{
-    display: inline-block;
-    background-color: #095875b2;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 3px 15px black;
-}*/
 
 /*----------------------------------------------------------------------------------------------------------------------------*/
 footer{
