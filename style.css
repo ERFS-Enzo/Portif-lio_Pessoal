@@ -227,7 +227,14 @@ div.projeto{
     margin: 0 auto;
 }
 div.projeto a{
-    display: none;
+    color: white;
+    text-decoration: none;
+    font-family: 'Orbitron';
+    font-size: 0.8em;
+    text-shadow: 1px 1px 8px #00FFFF;
+}
+div.projeto a:hover{
+    text-decoration: underline;
 }
 div.projeto img{
     margin-top: 10px;
