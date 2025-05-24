@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 600px){
+    section#inicio{
+        height: 450px;
+    }
+    section#inicio h1{
+        font-size: 1.5em;
+    }
+    section#inicio h3{
+        font-size: 0.8em
+    }
+    section#inicio button{
+        width: 150px;
+    }
+
+    div#texto-sobre{
+        height: 650px;
+    }
+
+    section#projetos{
+        padding-left: 15%;
+    }
+    section#projetos h1{
+        padding-right: 15%;
+    }
+    div.projeto img.site:hover{
+        transform: scale(2) translate(0px, 0px);
+    }
+    div.projeto img.codigo:hover{
+        transform: scale(2) translate(0px, 0px);
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 768px){
+    section#inicio{
+        height: 400px;
+    }
+    section#inicio h1{
+        font-size: 1.5em;
+    }
+    section#inicio h3{
+        font-size: 0.8em
+    }
+
+    div#texto-sobre{
+        height: 550px;
+    }
+
+
+    section#projetos{
+        padding-left: 15%;
+    }
+    section#projetos h1{
+        padding-right: 15%;
+    }
+    div.projeto img.site:hover{
+        transform: scale(2) translate(0px, 0px);
+    }
+    div.projeto img.codigo:hover{
+        transform: scale(3) translate(0px, 0px);
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+    section#projetos{
+        padding-left: 15%;
+    }
+    section#projetos h1{
+        padding-right: 15%;
+    }
+    div.projeto img.site:hover{
+        transform: scale(2) translate(0px, 0px);
+    }
+    div.projeto img.codigo:hover{
+        transform: scale(3) translate(0px, 0px);
+    }
+}
