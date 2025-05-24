@@ -18,11 +18,19 @@
         height: 650px;
     }
 
+    div.projeto img{
+        width: 150px;
+    }
     section#projetos{
-        padding-left: 15%;
+        padding-left:  110px;
+        padding-right: 100px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
     section#projetos h1{
-        padding-right: 15%;
+        padding-top: 10px;
+        font-size: 1.15em;
+        text-align: center;
     }
     div.projeto img.site:hover{
         transform: scale(2) translate(0px, 0px);
