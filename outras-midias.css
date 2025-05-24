@@ -42,6 +42,10 @@
     div.projeto img.codigo:hover{
         transform: scale(2) translate(0px, 0px);
     }
+
+    div.contact{
+        padding-right: 10px;
+    }
 }
 
 @media screen and (min-width: 600px) and (max-width: 768px){
