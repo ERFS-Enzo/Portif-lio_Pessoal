@@ -1,6 +1,10 @@
 @charset "UTF-8";
 
 @media screen and (max-width: 600px){
+    header > nav > a{
+        font-size: 0.602em;
+    }
+
     section#inicio{
         height: 450px;
     }
