@@ -37,13 +37,13 @@ body{
 
 /*----------------------------------------------------------------------------------------------------------------------------*/
 
-header#navegation{
+header{
     display: block;   
     color:white;
     text-align: center;
     border-bottom: 1px solid #00FFFF;
     padding: 20px;
-    background: #130227a2;  
+    background: #130227a2;
 }
 
 header > nav > a{
@@ -56,6 +56,8 @@ header > nav > a{
     font-size: 0.8em;
     font-family: 'Orbitron';
     border-radius: 10px;
+
+    
 }
 header a:hover{
     color: rgba(255, 255, 255, 0.575);
