@@ -1,19 +1,18 @@
 @charset "UTF-8";
  /*
     Font-family:
-    -Orbitron
-    -Ethnocentric
+    -'Lato'
+    -'Merriweather'
 
     Colors:
-    -#130227
-    -#ffffff
-    -#00FFFF
-    -#8000FF
+    -#1B263B;
+    -#151e4b;
+    -#F4F1DE;
+    -#D4AF37;
+    -#D8D7C4;
+
+    -#131b29
  */
-@font-face {
-    font-family: 'Ethnocentric';
-    src: url(Ethnocentric\ Rg.otf);
-}
 
 
 *{
@@ -26,11 +25,7 @@
     height: px;
 }
 body{
-    background-image: url(imagens/fundo.png);
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: center center;
+    background-color: #131b29;
     height: 100vh;
 }
 
@@ -41,9 +36,10 @@ header{
     display: block;   
     color:white;
     text-align: center;
-    border-bottom: 1px solid #00FFFF;
+    border-bottom: 2px solid #D4AF37;
+    border-radius: 0px 0px 15px 15px;
     padding: 20px;
-    background: #130227a2;
+    background: #172031;;
 }
 
 header > nav > a{
@@ -54,7 +50,7 @@ header > nav > a{
     margin-top: 10px;
     text-decoration: none;
     font-size: 0.8em;
-    font-family: 'Orbitron';
+    font-family: 'Merriweather';
     border-radius: 10px;
 
     
@@ -62,7 +58,7 @@ header > nav > a{
 header a:hover{
     color: rgba(255, 255, 255, 0.575);
     transition: 0.3s;
-    background-color: #00ffff75;
+    background-color: #d8d7c467;
 }
 header > nav{
     text-align: center;
@@ -71,12 +67,12 @@ header > nav{
 /*----------------------------------------------------------------------------------------------------------------------------*/
 section#inicio{
     display: block;   
-    background: rgba(47, 9, 117, 0.3);
+    background: #151e4b;
     border-radius: 10px;
     margin: 30px 100px 30px 100px;
     padding: 20px;
     height: 390px;
-    box-shadow: 0px 0px 15px #8000FF;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.637);
    
     backdrop-filter: blur(7.2px);
     -webkit-backdrop-filter: blur(7.2px);
@@ -86,25 +82,25 @@ section#inicio{
 section#inicio > h1{
     text-align: center;
     font-size: 2.2em;
-    color: white;
-    font-family: 'Ethnocentric', sans-serif;
+    color: #D4AF37;
+    font-family: 'Bentham', serif, sans-serif;
     font-weight: lighter;
-    text-shadow: 1px 1px 8px #00FFFF;
     padding-top: 40px;
     
 }
 section#inicio > h3{
-    color: white;
-    font-family: 'Ethnocentric';
+    color: #D4AF37;
+    font-family: 'Bentham', serif, sans-serif;
     font-weight: lighter;
     text-align: center;
-    text-shadow: 1px 1px 8px #00FFFF;
     padding-top: 10px;
 }
 section#inicio button{
-    font-family: 'Orbitron';
+    font-family: 'Lato';
+    font-size: 1em;
+    background-color: #F4F1DE;
     color: #130227a2;
-    box-shadow: 0px 0px 8px #00FFFF;
+    box-shadow: 0px 0px 8px #D4AF37;
     width: 200px;
     height: 50px;
     border: none;
@@ -126,18 +122,18 @@ section#inicio > a{
 /*----------------------------------------------------------------------------------------------------------------------------*/
 
 #sobre-mim{
-    color: white;
+    color: #F4F1DE;
     text-align: center;
     margin-top: 220px;
     padding-top: 20px;
     padding-bottom: 30px;
-    text-shadow: 1px 1px 8px #00FFFF;
 }
 #sobre-mim > div > h1{
-    font-size: 1.2em;
+    font-size: 2em;
     margin-bottom: 50px;
-    font-family: 'Ethnocentric', sans-serif;
+    font-family: 'Bentham', serif, sans-serif;
     font-weight: lighter;
+    color: #D4AF37;
 }
 #sobre-mim > div > p{
     font-size: 1em;
@@ -145,33 +141,32 @@ section#inicio > a{
     padding-bottom: 10px;
     padding-left: 10px;
     padding-right: 10px;
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'Lato', sans-serif;
     text-align: justify;
 }
 div#texto-sobre{
     display: inline-block;
-    background-color: #2f097536;
+    background-color: #151e4b;
     border-radius: 10px;
     padding: 20px 10px;
     height: 500px;
-    box-shadow: 0px 0px 15px #8000FF;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.637);
     backdrop-filter: blur(7.2px);
     -webkit-backdrop-filter: blur(7.2px);
 }
 /*----------------------------------------------------------------------------------------------------------------------------*/
 #habilidades{
-    font-family: 'Ethnocentric', sans-serif;
+    font-family: 'Bentham', serif, sans-serif;
     font-weight: lighter;
-    color: white;
     text-align: center;
     margin-top: 220px;
     padding-top: 20px;
     padding-bottom: 30px;
-    text-shadow: 1px 1px 8px #00FFFF;
 }
 #habilidades > div > h1{
-    font-size: 1.2em;
+    font-size: 2em;
     margin-bottom: 50px;
+    color: #D4AF37;
 }
 img{
     font-size: 0.8em;
@@ -184,21 +179,21 @@ img{
     background-color: #59497736;
     border-radius: 10px;
     width: 100px;
-    box-shadow: 0px 0px 8px #00FFFF;
+    box-shadow: 0px 0px 3px #d8d7c483;
     
 }
 .skills > img:hover{
-    background-color: rgba(255, 255, 255, 0.13);
-    transform: translate(-5px, -5px);
-    box-shadow: 2px 2px 8px #00FFFF;
+    background-color: #d8d7c45d;
+    transform: translate(-3px, -3px);
+    box-shadow: 2px 2px 6px #d8d7c483;
     transition: .3s;
 }
 div#experiencia{
     display: inline-block;
-    background-color: #2f097536;
+    background-color: #151e4b;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0px 0px 15px #8000FF;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.637);
     backdrop-filter: blur(7.2px);
     -webkit-backdrop-filter: blur(7.2px);
 }
@@ -211,39 +206,43 @@ section#projetos{
     margin-left: 80px;
     margin-right: 80px;   
     border-radius: 10px;
-    box-shadow: 0px 0px 15px #8000FF;
-    background-color: #2f097536;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.637);
+    background-color: #151e4b;
     backdrop-filter: blur(7.2px);
     -webkit-backdrop-filter: blur(7.2px);
+
 }
-section#projetos h1, h5{
-    text-shadow: 1px 1px 8px #00FFFF;
-    color: white;
-    font-family: 'Ethnocentric', sans-serif;
+section#projetos h1{
+    font-size: 2.2em;
+    color: #D4AF37;
+    font-family: 'Bentham', serif, sans-serif;
     font-weight: lighter;
+}
+section#projetos h5{
+    color: #F4F1DE;
+    font-family: 'Lato', sans-serif;
+    font-size: 1em;
 }
 
 div.projeto{
     display: inline-block;
     padding-top: 50px;
-    padding-right: 80px;
     margin: 0 auto;
 }
+
 div.projeto a{
-    color: white;
+    color: #D8D7C4;
     text-decoration: none;
-    font-family: 'Orbitron';
+    font-family: 'Lato';
     font-size: 0.8em;
-    text-shadow: 1px 1px 8px #00FFFF;
 }
 div.projeto a:hover{
     text-decoration: underline;
 }
 div.projeto img{
     margin-top: 10px;
-    width: 200px;
+    width: 280px;
     border-radius: 10px;
-    box-shadow: 0px 0px 8px #00FFFF;
 }
 div.projeto img.site:hover{
     border-radius: 10px;
@@ -269,16 +268,16 @@ section#contatos{
     margin-left: 80px;
     margin-right: 80px;   
     border-radius: 10px;
-    box-shadow: 0px 0px 15px #8000FF;
-    background-color: #2f097536;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.637);
+    background-color: #151e4b;
     backdrop-filter: blur(7.2px);
     -webkit-backdrop-filter: blur(7.2px);
 }
 section#contatos h1{
-    text-shadow: 1px 1px 8px #00FFFF;
-    color: white;
-    font-family: 'Ethnocentric', sans-serif;
+    color: #D4AF37;
+    font-family: 'Bentham', serif, sans-serif;
     font-weight: lighter;
+    font-size: 2em;
     margin-bottom: 30px;
 }
 div.contact{
@@ -289,8 +288,7 @@ div.contact{
 div.contact a{
     color: white;
     text-decoration: none;
-    font-family: 'Orbitron';
-    text-shadow: 1px 1px 6px #00FFFF;
+    font-family: 'Lato', sans-serif;
 }
 div.contact > a > i{
     font-size: 2em;
@@ -305,6 +303,6 @@ footer{
     background-color: black;
     color: white;
     text-align: center;
-    font-family: 'Orbitron', sans-serif;
-    font-size: 0.6em;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.8em;
 }
