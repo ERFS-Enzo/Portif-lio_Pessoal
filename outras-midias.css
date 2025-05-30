@@ -9,10 +9,10 @@
         height: 450px;
     }
     section#inicio h1{
-        font-size: 1.5em;
+        font-size: 2em;
     }
     section#inicio h3{
-        font-size: 0.8em
+        font-size: 1.3em
     }
     section#inicio button{
         width: 150px;
@@ -42,6 +42,9 @@
     div.projeto img.codigo:hover{
         transform: scale(2.5);
     }
+    section#projetos h1{
+        font-size: 2em;
+    }
   
 }
 
@@ -50,10 +53,10 @@
         height: 400px;
     }
     section#inicio h1{
-        font-size: 1.5em;
+        font-size: 2em;
     }
     section#inicio h3{
-        font-size: 0.8em
+        font-size: 1.3em
     }
 
     div#texto-sobre{
