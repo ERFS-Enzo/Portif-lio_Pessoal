@@ -37,10 +37,10 @@
         text-align: center;
     }
     div.projeto img.site:hover{
-        transform: scale(2) translate(0px, 0px);
+        transform: scale(2);
     }
     div.projeto img.codigo:hover{
-        transform: scale(2) translate(0px, 0px);
+        transform: scale(2.5);
     }
   
 }
